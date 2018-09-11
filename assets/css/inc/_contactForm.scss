@@ -1,0 +1,35 @@
+.form-container {
+  display: flex;
+  box-shadow: 5px 5px 10px $transparentLightGrey;
+  margin-top: 1rem;
+  padding: 0.75rem;
+  position: relative;
+  width: 50%;
+  left: 25%;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  border: 1px solid $midBlue;
+  border-radius: 5px;
+  h3 {
+    display: none;
+  }
+}
+
+nf-field > .nf-field-container.submit-container.label-above.textbox-container > .nf-field > .field-wrap.submit-wrap.textbox-wrap > .nf-field-element > .ninja-forms-field.nf-element {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  background-color: $darkBlue;
+  color: $offWhite;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+  padding: 1rem;
+  border-radius: 15px;
+  margin: 1rem auto;
+  box-shadow: 5px 5px 10px $transparentMidGrey;
+}

@@ -1,0 +1,133 @@
+@media (max-width: 1300px) {
+  .team > .outter-team-wrapper > .team-card {
+    width: 45vw;
+    .inner-card-wrapper > img.photo {
+        max-width: 45vw;
+    }
+  }
+}
+
+@media (max-width: 966px) {
+  header > .company-name > p {
+    display: none;
+  }
+}
+
+@media (max-width: 789px) {
+  .menu {
+    transform: scale(1, 0);
+    flex-basis: 0;
+    border: 2px solid $offWhite;
+  }
+  header {
+    .navbar {
+      .menu-toggler-label {
+        opacity: 1;
+        span {
+          margin-right: 1.5rem;
+        }
+        span,
+        span::before,
+        span::after {
+          background-color: $midBlue;
+          height: 3px;
+          width: 2rem;
+          position: fixed;
+          right: 0;
+          z-index: 200;
+        }
+        span::before,
+        span::after {
+          content: '';
+          position: absolute;
+        }
+        span::before {
+          bottom: 0.5rem;
+        }
+        span::after {
+          top: 0.5rem;
+        }
+      }
+      .menu {
+        position: absolute;
+        text-align: center;
+        top: 5rem;
+        right: 0;
+        width: 100%;
+        background-color: $extraDarkGrey;
+        display: block;
+        ul {
+          display: block;
+          .nav-item {
+            margin: 2rem 2rem;
+            .nav-link {
+              color: $lightBlue;
+              &:before {
+                background-color: $lightBlue;
+              }
+              &:hover {
+                color: $lightBlue;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .menu-toggler {
+    &:checked ~ .menu {
+      transform: scale(1, 1);
+    }
+  }
+
+  .top-three {
+    display: block;
+    .top-element {
+      border-radius: 0;
+    }
+  }
+  .stretchy-text {
+    h4 {
+      font-size: 1.2rem;
+    }
+  }
+  .form-container {
+    width: 95%;
+    left: 2.5%;
+  }
+
+  .team > .outter-team-wrapper > .team-card {
+    width: 98vw;
+    .inner-card-wrapper > img.photo {
+        max-width: 98vw;
+    }
+  }
+}
+
+
+
+@media (max-width: 645px) {
+  .content-container {
+    display: block;
+    .content {
+      border-radius: 0;
+      margin: 1rem 0;
+    }
+  }
+}
+
+@media (max-width: 410px) {
+  footer {
+    .footer {
+      .copyright {
+        font-size: 6vw;
+      }
+    }
+  }
+}
+
+@media (max-width: 270px) {
+  header > .company-name > h6 {
+    display: none;
+  }
+}

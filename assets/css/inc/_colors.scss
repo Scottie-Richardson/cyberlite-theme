@@ -1,0 +1,54 @@
+/* Solid Colors */
+$offWhite:      rgb(245, 245, 245);
+$lightGrey:     rgb(200, 200, 200);
+$midGrey:       rgb(150, 150, 150);
+$darkGrey:      rgb(100, 100, 100);
+$extraDarkGrey: rgb( 50,  50,  50);
+$lightBlue:     rgb(  0, 175, 200);
+$midBlue:       rgb(  0, 125, 150);
+$darkBlue:      rgb(  0,  75, 100);
+$lightGreen:    rgb(  0, 200,  50);
+$midGreen:      rgb(  0, 150,   0);
+$darkGreen:     rgb(  0, 100,   0);
+$black:         rgb(  0,   0,   0);
+
+/* Transparent Colors */
+$fullTransparent:           rgba(255, 255, 255, 0.05);
+$transparentOffWhite:       rgba(245, 245, 245, .98);
+$transparentLightGrey:      rgba(200, 200, 200, .98);
+$transparentMidGrey:        rgba(150, 150, 150, .98);
+$transparentDarkGrey:       rgba(100, 100, 100, .98);
+$transparentExtraDarkGrey:  rgba( 50,  50,  50, .98);
+$transparentLightBlue:      rgba(  0, 175, 200, .98);
+$transparentMidBlue:        rgba(  0, 125, 150, .98);
+$transparentDarkBlue:       rgba(  0,  75, 100, .98);
+$transparentLightGreen:     rgba(  0, 200,  50, .98);
+$transparentMidGreen:       rgba(  0, 150,   0, .98);
+$transparentDarkGreen:      rgba(  0, 100,   0, .98);
+$transparentBlack:          rgba(  0,   0,   0, .98);
+
+/* Classes to set colors within HTML */
+.offwhite {color: $offWhite;}
+.lightGray {color: $lightGrey;}
+.midGrey {color: $midGrey;}
+.darkGrey {color: $darkGrey;}
+.lightBlue {color: $lightBlue;}
+.midBlue {color: $midBlue;}
+.darkBlue {color: $darkBlue;}
+.lightGreen {color: $lightGreen;}
+.midGreen {color: $midGreen;}
+.darkGreen {color: $darkGreen;}
+.black {color: $black;}
+
+/* Classes to set background colors within HTML */
+.offwhite-bg {background-color: $offWhite;}
+.lightGray-bg {background-color: $lightGrey;}
+.midGrey-bg {background-color: $midGrey;}
+.darkGrey-bg {background-color: $darkGrey;}
+.lightBlue-bg {background-color: $lightBlue;}
+.midBlue-bg {background-color: $midBlue;}
+.darkBlue-bg {background-color: $darkBlue;}
+.lightGreen-bg {background-color: $lightGreen;}
+.midGreen-bg {background-color: $midGreen;}
+.darkGreen-bg {background-color: $darkGreen;}
+.black-bg {background-color: $black;}
